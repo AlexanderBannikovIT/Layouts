@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+</head>
+<body>
+    <div class="global-wrapper">
+       <div class="image-wrapper">
+            <header class="header">
+                <div class="container">
+                    <div class="header-wrapper">
+                        <a href="#" class="header-logo">
+                            <img src="./img/logo.svg" alt="">
+                        </a>
+                        <nav class="header-nav">
+                            <ul class="header-nav-list">
+                                <li class="header-nav-item">
+                                    <a href="#uslugyy" class="header-nav-link">
+                                        Услуги 
+                                    </a> 
+                                </li>
+                                <li class="header-nav-item">
+                                    <a href="#teacher" class="header-nav-link">
+                                        Учителя
+                                    </a> 
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header-info">
+                            <p class="header-info-text">Адрес : г. Ухта, Чибьюская</p>
+                            <p class="header-info-text">Почта : Leader_school@ya.ru</p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">Вверх</button>
+            <main class="main">
+                    <section class="uslugy" id="uslugyy">
+
+                       <div class="container">
+                        <h1 class="uslugy-tittle">
+                            Услуги:
+                        </h1>
+                        <div class="uslugy-wrapper">
+                            <div class="uslugy-blocks">
+                                <div class="uslugy-block">
+                                    <h2 class="uslugy-name">
+                                       <span>1</span>Индивидуальные занятия
+                                    </h2>
+                                    <dialog style="padding: 0">
+                                        <div id="modal-box" class="modal-box-decoration" style="padding: 1rem">
+                                            <h2 class="card-tittle">Индивидуальные занятия</h2>
+                                          <div >Частная школа предлагает индивидуальные занятия с опытными преподавателями для школьников, чтобы помочь им освоить материал, дополнительно к обучению в школе.</div>
+                                          <button id="close-modal-btn"><img src="./img/arrow.svg" alt=""></button>
+                                        </div>
+                                      </dialog>
+                                      <button id="show-modal-btn" class="small-img-button">Подробнее</button>
+                                </div>
+                                <div class="uslugy-block">
+                                    <h2 class="uslugy-name">
+                                       <span>2</span>Групповые занятия
+                                    </h2>
+                                    <dialog style="padding: 0">
+                                        <div id="modal-box" class="modal-box-decoration" style="padding: 1rem">
+                                            <h2 class="card-tittle">Групповые занятия</h2>
+                                          <div style="font-size: 30px; text-align:start;"> В нашей школе ценится коллективное взаимодействие и взаимопомощь. Групповые занятия способствуют обмену знаниями, активному обсуждению учебного материала и созданию поддерживающей атмосферы, которая помогает учащимся преодолевать трудности и достигать успеха в учебе.</div>
+                                          <button id="close-modal-btn"><img src="./img/arrow.svg" alt=""></button>
+                                        </div>
+                                      </dialog>
+                                      <button id="show-modal-btn" class="small-img-button">Подробнее</button>
+                                </div>
+                            </div>
+                            <div class="uslugy-blocks-two">
+                                <div class="uslugy-block">
+                                    <h2 class="uslugy-name">
+                                       <span>3</span>Подготовка к международным экзаменам
+                                    </h2>
+                                    <dialog style="padding: 0">
+                                        <div id="modal-box" class="modal-box-decoration" style="padding: 1rem">
+                                            <h2 class="card-tittle">Подготовка к международным экзаменам</h2>
+                                          <div >Наши квалифицированные преподаватели специализируются на подготовке учеников к международным экзаменам, таким как ОГЭ и ЕГЭ. Они предоставляют не только необходимые знания, но и стратегии успешной сдачи экзаменов, открывая перед учениками новые возможности для образования и карьеры.</div>
+                                          <button id="close-modal-btn"><img src="./img/arrow.svg" alt=""></button>
+                                        </div>
+                                      </dialog>
+                                      <button id="show-modal-btn" class="small-img-button">Подробнее</button>
+                                </div>
+                                <div class="uslugy-block">
+                                    <h2 class="uslugy-name">
+                                       <span>4</span>Интенсивные летние курсы
+                                    </h2>
+                                    <dialog style="padding: 0">
+                                        <div id="modal-box" class="modal-box-decoration" style="padding: 1rem">
+                                            <h2 class="card-tittle">Интенсивные летние курсы</h2>
+                                          <div >Наши интенсивные летние курсы предлагают уникальную возможность углубить знания, повысить академическую мотивацию и подготовиться к новому учебному году. В теплой и поддерживающей атмосфере школы, ребенок сможет упорно работать, общаться с единомышленниками и стать успешным учеником.</div>
+                                          <button id="close-modal-btn"><img src="./img/arrow.svg" alt=""></button>
+                                        </div>
+                                      </dialog>
+                                      <button id="show-modal-btn" class="small-img-button">Подробнее</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                       </div>
+                    </section>
+            </main>
+       </div>
+       <div class="backgound-img-2">
+            <div class="container">
+                <section id="mySlider" class="splide" aria-label="Splide Basic HTML Example">
+                    <h2 id="teacher" class="tittle-slider">Наши Учителя</h2>
+                    <div class="splide__track">
+                          <ul class="splide__list">
+                              <li class="splide__slide"><img src="./img/teacher-one.jpg" alt=""></li>
+                              <li class="splide__slide"><img src="./img/teacher-two.jpg" alt=""></li>
+                              <li class="splide__slide"><img src="./img/teacher-three.jpg" alt=""></li>
+                              <li class="splide__slide"><img src="./img/teacher-four.jpg" alt=""></li>
+                          </ul>
+                    </div>
+                    <div class="splide__arrows splide__arrows--ltr">
+                        <button
+                          class="splide__arrow splide__arrow--prev"
+                          type="button"
+                          aria-label="Previous slide"
+                          aria-controls="splide01-track"
+                        >
+                        <svg width="45" height="45" viewBox="0 0 39 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M36.6459 18.7728C38.6733 19.9221 38.6733 22.8433 36.6459 23.9925L4.4794 42.2262C2.4795 43.3599 0 41.9152 0 39.6164V3.14902C0 0.850152 2.4795 -0.594488 4.4794 0.539165L36.6459 18.7728Z" fill="none"/>
+                            </svg>
+                        </button>
+                        <button
+                          class="splide__arrow splide__arrow--next"
+                          type="button"
+                          aria-label="Next slide"
+                          aria-controls="splide01-track"
+                        >
+                        <svg width="45" height="45" viewBox="0 0 39 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M36.6459 18.7728C38.6733 19.9221 38.6733 22.8433 36.6459 23.9925L4.4794 42.2262C2.4795 43.3599 0 41.9152 0 39.6164V3.14902C0 0.850152 2.4795 -0.594488 4.4794 0.539165L36.6459 18.7728Z" fill="none"/>
+                            </svg>
+                            
+                        </button>
+                      </div>
+                </section>
+            </div>
+       </div>
+       <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-block-one">
+                    <a href="" class="logo">
+                        <img src="./img/logo.svg" alt="">
+                    </a>
+                    <ul class="footer-list">
+                        <li class="footer-list-item"><a href="#uslugyy" class="footer-link">Услуги</a></li>
+                        <li class="footer-list-item"><a href="#teacher" class="footer-link">Наши учителя</a></li>
+                    </ul>
+                </div>
+                <div class="footer-block-two">
+                    <div class="footer-block">
+                        <p style="font-size: 24px; color:white">Мы в социальных сетях:</p>
+                        <div class="footer-subblock">
+                            <a href="">
+                                <img src="./img/vk.svg" alt="">
+                            </a>
+                            <a href=""><img src="./img/odnokly.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div  class="footer-block">
+                        <p style="font-size: 20px; color:white">По всем вопросам обращаться: <br>
+                            +79827403851</p>
+                        
+                    </div>
+                </div>
+                <p style="font-size:28px;color:white;margin-left: 80%">Д. Р. Смоленцева</p>
+            </div>
+        </div>
+            <div class="hr" style="margin: 30px 0;">
+            </div>
+                <div class="container">
+                    <div class="footer-block-three">
+                        <p style="font-size:16px;color:white">© 2024 Leader</p>
+                        <p style="text-align: end;color:white">Лицензия   Реквизиты   Условия использования <br>
+                            Политика обработки персональных данных <br>
+                            Договор-оферта    Соглашение об обработке персональных данных</p>
+                    </div>
+                </div>
+       </footer>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script src="./main.js"></script>
+</html>
